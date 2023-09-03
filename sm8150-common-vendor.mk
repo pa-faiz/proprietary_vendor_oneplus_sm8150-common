@@ -208,6 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.audiohalext@1.0-impl \
     libAlacSwDec \
     libApeSwDec \
     libFlacSwDec \
@@ -226,6 +227,8 @@ PRODUCT_PACKAGES += \
     libOmxVpp \
     libOmxWmaDec \
     libadsprpc \
+    libaudio_log_utils \
+    libaudioconfigstore \
     libcdsp_default_listener \
     libcdsprpc \
     libdiag \
@@ -265,6 +268,7 @@ PRODUCT_PACKAGES += \
     libvpphvx \
     libvpplibrary \
     vendor.oneplus.hardware.param@1.0 \
+    vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
@@ -272,7 +276,6 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
     sound_trigger.primary.msmnile \
-    vendor.qti.hardware.audiohalext@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libFileMux_proprietary \
     libOmxDsdDec \
@@ -285,8 +288,6 @@ PRODUCT_PACKAGES += \
     libadm \
     libadpcmdec \
     libaudcal \
-    libaudio_log_utils \
-    libaudioconfigstore \
     libbluetooth_audio_session_qti \
     libcapiv2svacnn \
     libcapiv2vop \
@@ -332,7 +333,6 @@ PRODUCT_PACKAGES += \
     libqcreverb \
     libqcvirt \
     libshoebox \
-    vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
