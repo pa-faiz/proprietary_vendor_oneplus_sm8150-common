@@ -209,21 +209,14 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.audiohalext@1.0-impl \
-    libAlacSwDec \
-    libApeSwDec \
-    libFlacSwDec \
     libOmxAacDec \
     libOmxAlacDec \
-    libOmxAlacDecSw \
     libOmxAmrDec \
     libOmxAmrwbplusDec \
     libOmxApeDec \
-    libOmxApeDecSw \
     libOmxEvrcDec \
     libOmxG711Dec \
     libOmxQcelp13Dec \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
     libOmxVpp \
     libOmxWmaDec \
     libQSEEComAPI \
@@ -267,7 +260,6 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libssc \
-    libswvdec \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libvppclient \
