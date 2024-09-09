@@ -226,6 +226,7 @@ PRODUCT_PACKAGES += \
     libOmxSwVencMpeg4 \
     libOmxVpp \
     libOmxWmaDec \
+    libQSEEComAPI \
     libadsprpc \
     libaudio_log_utils \
     libaudioconfigstore \
@@ -260,7 +261,12 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdsprpc \
+    libsensorslog \
     libsmemlog \
+    libsns_fastRPC_util \
+    libsnsapi \
+    libsnsdiaglog \
+    libssc \
     libswvdec \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
@@ -382,7 +388,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
     libSTDualCamCaptureWT \
@@ -417,6 +422,9 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_raw \
     libarcsoft_tricam_calibration \
     libarcsoft_tricam_verification \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
     libbatching \
     libbtnv \
     libc++_extra \
@@ -518,17 +526,12 @@ PRODUCT_PACKAGES += \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
-    libsensorslog \
     libsettings \
     libslimclient \
     libsns_device_mode_stub \
-    libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
-    libsnsapi \
-    libsnsdiaglog \
     libspcom \
     libspl \
-    libssc \
     libssc_default_listener \
     libssd \
     libstblur_capture_api \
@@ -548,6 +551,8 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libxml \
     libxtadapter \
+    libxtwifi_server_protocol \
+    libxtwifi_server_protocol_uri_v3 \
     libwvdrmengine \
     nfc_nci_nxp \
     qcrilHalMarshal \
