@@ -223,6 +223,7 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libaudio_log_utils \
     libaudioconfigstore \
+    libbluetooth_audio_session_qti_2_1 \
     libcdsp_default_listener \
     libcdsprpc \
     libdiag \
