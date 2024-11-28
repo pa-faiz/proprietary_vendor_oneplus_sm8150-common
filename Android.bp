@@ -3517,8 +3517,6 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libpn553_fw.so",
             ],
-            shared_libs: [
-            ],
         },
     },
     compile_multilib: "64",
