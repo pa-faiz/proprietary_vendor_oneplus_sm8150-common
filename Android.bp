@@ -8553,24 +8553,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "vendor.oneplus.hardware.display@1.0-service",
-	owner: "oneplus",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/hw/vendor.oneplus.hardware.display@1.0-service"],
-			shared_libs: ["vendor.oneplus.hardware.display@1.0", "libhardware", "libbase", "libcutils", "libhidlbase", "libhidltransport", "liblog", "libnl", "libutils", "vendor.display.postproc@1.0", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "vendor.oneplus.hardware.hdcpkey@1.0-service",
 	owner: "oneplus",
 	target: {
