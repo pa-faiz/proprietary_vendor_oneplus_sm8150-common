@@ -439,7 +439,6 @@ PRODUCT_PACKAGES += \
     libcvp_common \
     libdataitems \
     libdisp-aba \
-    libdisplayqos \
     libdpmqmihal \
     libdrmfs \
     libdrmtime \
@@ -450,7 +449,6 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
-    libhdr_tm \
     libhexagon_nn_stub \
     libhta_hexagon_runtime \
     libizat_client_api \
@@ -498,7 +496,6 @@ PRODUCT_PACKAGES += \
     libqdma_file_agent \
     libqdp \
     libqisl \
-    libqseed3 \
     libqtikeymaster4 \
     librcc \
     libril-qc-hal-qmi \
@@ -507,12 +504,6 @@ PRODUCT_PACKAGES += \
     libril-qc-radioconfig \
     librilqmiservices \
     librpmb \
-    libsdedrm \
-    libsdm-color \
-    libsdm-colormgr-algo \
-    libsdm-diag \
-    libsdm-disp-vndapis \
-    libsdmextension \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
@@ -528,7 +519,6 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libthermalclient \
     libtime_genoff \
-    libtinyxml2_1 \
     libtriplecam_image_optical_zoom \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
