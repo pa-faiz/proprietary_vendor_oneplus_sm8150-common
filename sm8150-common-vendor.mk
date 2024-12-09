@@ -544,13 +544,6 @@ PRODUCT_PACKAGES += \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.color@1.4 \
-    vendor.display.color@1.5 \
-    vendor.display.postproc@1.0 \
     vendor.nxp.eventprocessor@1.0 \
     vendor.oneplus.hardware.CameraMDMHIDL@1.0 \
     vendor.oneplus.hardware.hdcpkey@1.0 \
@@ -710,7 +703,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.nfc@1.2-service \
     qcrild \
-    vendor.display.color@1.0-service \
     vendor.oneplus.hardware.CameraMDMHIDL@1.0-service \
     vendor.oneplus.hardware.camera@1.0-service \
     vendor.oneplus.hardware.display@1.0-service \
@@ -743,7 +735,6 @@ PRODUCT_PACKAGES += \
     pm-proxy \
     pm-service \
     port-bridge \
-    ppd \
     qcc-trd \
     qrtr-cfg \
     qrtr-lookup \
