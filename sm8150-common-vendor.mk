@@ -329,8 +329,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
-    camera.device@3.2-impl_oneplus \
-    camera.device@3.3-impl_oneplus \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0_vendor \
