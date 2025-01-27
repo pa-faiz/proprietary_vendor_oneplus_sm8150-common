@@ -328,6 +328,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
+    android.hardware.camera.provider@2.4-legacy \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0_vendor \
