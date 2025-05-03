@@ -295,7 +295,7 @@ PRODUCT_PACKAGES += \
     libmmrtpencoder_proprietary \
     libmulawdec \
     libpn553_fw \
-    libqtigef \
+    libqtigef_vendor \
     libsmwrapper \
     libssrec \
     libwfdcodecv4l2_proprietary \
