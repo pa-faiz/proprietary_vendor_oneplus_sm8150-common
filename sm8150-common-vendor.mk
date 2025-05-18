@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -444,8 +443,6 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
-    libhexagon_nn_stub \
-    libhta_hexagon_runtime \
     libizat_client_api \
     libizat_core \
     libjnihelper \
@@ -536,9 +533,6 @@ PRODUCT_PACKAGES += \
     qtibus \
     qtimutex \
     sensors.hal.tof \
-    unnhal-acc-adreno \
-    unnhal-acc-common \
-    unnhal-acc-hvx \
     vendor.nxp.eventprocessor@1.0 \
     vendor.oneplus.hardware.CameraMDMHIDL@1.0 \
     vendor.oneplus.hardware.hdcpkey@1.0 \
@@ -674,7 +668,6 @@ PRODUCT_PACKAGES += \
     QCC \
     com.android.hotwordenrollment.common.util \
     android.hardware.gnss@2.1-service-qti.xml \
-    android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.gnss@4.0-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
@@ -693,7 +686,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.keymaster@4.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.nfc@1.2-service \
     qcrild \
     vendor.oneplus.hardware.CameraMDMHIDL@1.0-service \
